@@ -1,8 +1,10 @@
 import images from '../data/images.js';
-import makeImageTemplate from '../src/make-image-template.js';
+import {makeImageTemplate} from './images-component.js';
+import loadImages from './images-component.js';
+import loadFilters from './filter-component.js';
 
-const imageList = document.getElementById('image-list');
-images.forEach(image => {
-    const dom = makeImageTemplate(image);
-    imageList.appendChild(dom);
+loadImages(images);
+
+loadFilters(filter => {
+    
 });

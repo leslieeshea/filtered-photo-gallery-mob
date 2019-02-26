@@ -1,6 +1,6 @@
 const test = QUnit.test;
 import images from '../data/images.js';
-import makeImageTemplate from '../src/make-image-template.js';
+import { makeImageTemplate } from '../src/images-component.js';
 
 
 test('Test that image list template is correct', assert => {
