@@ -3,7 +3,6 @@ import images from '../data/images.js';
 import makeImageTemplate from '../src/make-image-template.js';
 
 
-
 test('Test that image list template is correct', assert => {
 //arrange
     let image = images[0];
