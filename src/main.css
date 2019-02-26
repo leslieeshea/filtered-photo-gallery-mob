@@ -1,0 +1,17 @@
+#image-list {
+    padding: 0px;
+}
+
+#image-list li {
+    list-style-type: none;
+    border: 1px solid black;
+    margin: 0px 8px 8px 0px;
+    float: left;
+    text-align: center;
+    width: 200px;
+    height: 300px;
+}
+
+#image-list img {
+    width: 100%;
+}
