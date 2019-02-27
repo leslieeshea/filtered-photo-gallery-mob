@@ -8,10 +8,16 @@
     margin: 0px 8px 8px 0px;
     float: left;
     text-align: center;
-    width: 200px;
-    height: 300px;
+    width: 250px;
+    height: 370px;
 }
 
 #image-list img {
     width: 100%;
+}
+
+#image-list p {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
